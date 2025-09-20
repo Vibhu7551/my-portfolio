@@ -14,7 +14,7 @@ import Resume from "./pages/Resume";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/my-portfolio">
       <div className="min-h-screen flex flex-col bg-gradient-to-r from-pink-200 via-purple-200 to-blue-200">
         {/* Navbar */}
         <Navbar />
@@ -28,7 +28,7 @@ function App() {
             <Route path="/projects/ecommerce" element={<Ecommerce />} />
             <Route path="/projects/flappy-bird" element={<FlappyBird />} />
             <Route path="/projects/tamilocr" element={<TamilOCR />} />
-            <Route path="/resume" element={<Resume />} /> 
+            <Route path="/resume" element={<Resume />} />
           </Routes>
         </main>
 

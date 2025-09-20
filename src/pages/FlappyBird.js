@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function FlappyBird() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-pink-200 via-purple-200 to-blue-200 p-10">
-      <div className="max-w-4xl mx-auto  backdrop-blur-md p-10 rounded-2xl">
+      <div className="max-w-4xl mx-auto backdrop-blur-md p-10 rounded-2xl">
         {/* Title */}
         <h1 className="text-5xl font-bold mb-6 text-gray-900 text-center">
           Flappy Bird Game 🐦
@@ -30,12 +30,12 @@ function FlappyBird() {
         {/* Screenshots */}
         <div className="grid md:grid-cols-2 gap-6 mb-10">
           <img
-            src="/flappy-screenshot1.png"
+            src={process.env.PUBLIC_URL + "/flappy-screenshot1.png"}
             alt="Flappy Bird Gameplay Screenshot 1"
             className="rounded-lg shadow-md hover:shadow-xl transition"
           />
           <img
-            src="/flappy-screenshot2.png"
+            src={process.env.PUBLIC_URL + "/flappy-screenshot2.png"}
             alt="Flappy Bird Gameplay Screenshot 2"
             className="rounded-lg shadow-md hover:shadow-xl transition"
           />
@@ -57,7 +57,7 @@ function FlappyBird() {
           <span className="px-5 py-2 bg-white rounded-lg shadow-sm">
             Python
           </span>
-          <span className="px-5 py-2 bg-white  rounded-lg shadow-sm">
+          <span className="px-5 py-2 bg-white rounded-lg shadow-sm">
             Pygame
           </span>
         </div>

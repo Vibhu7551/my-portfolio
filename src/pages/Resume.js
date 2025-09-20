@@ -9,12 +9,12 @@ const Resume = () => {
           <h1 className="text-4xl font-extrabold text-gray-800">Vibhu N</h1>
           <p className="text-lg text-gray-600">Web Developer & AI Enthusiast</p>
           <a
-            href="/resume.pdf"
+            href={`${process.env.PUBLIC_URL}/resume.pdf`}
             download="Vibhu-Resume.pdf"
             className="mt-4 inline-block px-6 py-3 border border-gray-400 text-gray-700 rounded-lg 
               font-semibold hover:bg-gray-700 hover:text-white transition"
           >
-            ⬇ Download Resume
+             Download Resume
           </a>
         </div>
 
@@ -90,7 +90,6 @@ const Resume = () => {
   <p className="text-gray-700 leading-relaxed">• Problem-Solving </p>
   <p className="text-gray-700 leading-relaxed"> • Good Communication skill </p>
 </section>
-transition
 {/* Languages */}
 <section>
   <h2 className="text-2xl font-bold text-black-700 mb-3">Languages</h2>
