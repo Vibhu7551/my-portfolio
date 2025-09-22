@@ -13,11 +13,6 @@ Live here 👉 [My Portfolio](https://vibhu7551.github.io/my-portfolio/)
 
 ---
 
-## 📸 Preview
-
-
----
-
 ## 🛠 Tech Stack
 - React.js ⚛️  
 - TailwindCSS 🎨  
